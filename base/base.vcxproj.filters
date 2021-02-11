@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{e985a7e1-f9e5-4d9f-a190-8a87a3d371ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{b2a5eb9c-f688-4eb2-a814-cffd023b51c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others">
+      <UniqueIdentifier>{69502dd0-1bf2-4644-bd42-c334085acc9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{7ddabd31-787b-403f-8a3e-75b0124acb16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{f0d557d6-2daf-4ffe-a841-d19b8e024d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\imgui">
+      <UniqueIdentifier>{7ac682e7-02a1-4c57-9ce6-7ac7f2b83750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\minhook">
+      <UniqueIdentifier>{402f12e5-3eb2-4d87-b4ee-1ecab2e82622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\minhook\dll_resources">
+      <UniqueIdentifier>{bd082967-1ead-41f8-b26f-9a8450835755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\minhook\include">
+      <UniqueIdentifier>{6c3cdb35-d201-4706-8958-b8bbb5d68a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\minhook\src">
+      <UniqueIdentifier>{c697b142-4035-4a1c-8f34-f537da5a76e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\minhook\src\hde">
+      <UniqueIdentifier>{2a81c01d-254a-4f7c-93be-5d7d01f50046}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dependencies\imgui\imconfig.h">
+      <Filter>Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui\imgui.h">
+      <Filter>Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui\imgui_impl_dx11.h">
+      <Filter>Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui\imgui_impl_win32.h">
+      <Filter>Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui\imgui_internal.h">
+      <Filter>Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui\imstb_rectpack.h">
+      <Filter>Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui\imstb_textedit.h">
+      <Filter>Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui\imstb_truetype.h">
+      <Filter>Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\minhook\include\MinHook.h">
+      <Filter>Dependencies\minhook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\minhook\src\buffer.h">
+      <Filter>Dependencies\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\minhook\src\trampoline.h">
+      <Filter>Dependencies\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\minhook\src\hde\hde32.h">
+      <Filter>Dependencies\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\minhook\src\hde\hde64.h">
+      <Filter>Dependencies\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\minhook\src\hde\pstdint.h">
+      <Filter>Dependencies\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\minhook\src\hde\table32.h">
+      <Filter>Dependencies\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\minhook\src\hde\table64.h">
+      <Filter>Dependencies\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Hooking.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Memory.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Operations.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\PatternScan.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\natives.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\GraphicHandler.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\MenuHandler.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RenderHandler.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Others\InputHandler.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Others\Log.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\dependencies\imgui\imgui.cpp">
+      <Filter>Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui\imgui_demo.cpp">
+      <Filter>Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui\imgui_draw.cpp">
+      <Filter>Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui\imgui_impl_dx11.cpp">
+      <Filter>Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui\imgui_impl_win32.cpp">
+      <Filter>Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui\imgui_tables.cpp">
+      <Filter>Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui\imgui_widgets.cpp">
+      <Filter>Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\minhook\src\buffer.c">
+      <Filter>Dependencies\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\minhook\src\hook.c">
+      <Filter>Dependencies\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\minhook\src\trampoline.c">
+      <Filter>Dependencies\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\minhook\src\hde\hde32.c">
+      <Filter>Dependencies\minhook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\minhook\src\hde\hde64.c">
+      <Filter>Dependencies\minhook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Hooking.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\PatternScan.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\GraphicHandler.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\MenuHandler.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\RenderHandler.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Others\InputHandler.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Others\Log.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\dependencies\minhook\dll_resources\MinHook.def">
+      <Filter>Dependencies\minhook\dll_resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\dependencies\minhook\dll_resources\MinHook.rc">
+      <Filter>Dependencies\minhook\dll_resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
